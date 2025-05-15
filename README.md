@@ -7,6 +7,7 @@
 connection pool for CL-DBI
 
 <details>
+
 ```common-lisp
 (setf *connection-pool* (make-db-connection-pool :mysql
                                                  :database-name "dbicp_dev"
@@ -21,6 +22,7 @@ connection pool for CL-DBI
     (do-sql conn "SELECT * FROM USERS")
     (disconnect conn)))
 ```
+
 </details>
 
 
@@ -29,6 +31,7 @@ connection pool for CL-DBI
 SQL Mapping Framework
 
 <details>
+
 ```common-lisp
 (setf *session* (create-sql-session :mysql
                                     :database-name "batis_dev"
@@ -43,6 +46,7 @@ SQL Mapping Framework
 
 (update-one *session* register-product :id 1 :name "NES" :price 14800)
 ```
+
 </details>
 
 
@@ -51,6 +55,7 @@ SQL Mapping Framework
 rewrite old reddit
 
 <details>
+
 ```sh
 make setup
 
@@ -58,6 +63,7 @@ make dev.up
 
 curl -v http://localhost:8000/browse
 ```
+
 </details>
 
 
