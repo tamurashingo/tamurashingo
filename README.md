@@ -1,8 +1,8 @@
-## Projects
+# Projects
 
-### Common Lisp
+## Common Lisp
 
-**[cl-dbi-connection-pool](https://github.com/tamurashingo/cl-dbi-connection-pool)**
+### [cl-dbi-connection-pool](https://github.com/tamurashingo/cl-dbi-connection-pool)
 
 connection pool for CL-DBI
 
@@ -26,7 +26,7 @@ connection pool for CL-DBI
 </details>
 
 
-**[cl-batis](https://github.com/tamurashingo/cl-batis)**
+### [cl-batis](https://github.com/tamurashingo/cl-batis)
 
 SQL Mapping Framework
 
@@ -50,7 +50,7 @@ SQL Mapping Framework
 </details>
 
 
-**[reddit1.0](https://github.com/tamurashingo/reddit1.0)**
+### [reddit1.0](https://github.com/tamurashingo/reddit1.0)
 
 rewrite old reddit
 
@@ -67,15 +67,15 @@ curl -v http://localhost:8000/browse
 </details>
 
 
-### Java
+## Java
 
 
-**[dbutils3](https://github.com/tamurashingo/dbutils3)**
+### [dbutils3](https://github.com/tamurashingo/dbutils3)
 
 database utility
 
 
-**[sql-analyzer](https://github.com/tamurashingo/sql-analyzer)**
+### [sql-analyzer](https://github.com/tamurashingo/sql-analyzer)
 
 generate SQL and params for prepared statement
 
