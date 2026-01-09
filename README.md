@@ -1,6 +1,4 @@
-## Repositories by language
-
-This is a simple list of public repositories from my GitHub profile (https://github.com/tamurashingo), grouped by primary language.
+## Major Projects by Language
 
 <details>
 <summary>C</summary>
