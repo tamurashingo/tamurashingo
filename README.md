@@ -1,82 +1,72 @@
-# Projects
+## Repositories by language
 
-## Common Lisp
-
-### [cl-dbi-connection-pool](https://github.com/tamurashingo/cl-dbi-connection-pool)
-
-connection pool for CL-DBI
+This is a simple list of public repositories from my GitHub profile (https://github.com/tamurashingo), grouped by primary language.
 
 <details>
+<summary>C</summary>
 
-```common-lisp
-(setf *connection-pool* (make-db-connection-pool :mysql
-                                                 :database-name "dbicp_dev"
-                                                 :username "root"
-                                                 :password "password"
-                                                 :host "mysql-test"
-                                                 :port 3306))
-
-
-(let ((conn (get-connection *connection-pool*)))
-  (prog1
-    (do-sql conn "SELECT * FROM USERS")
-    (disconnect conn)))
-```
+- [ilc](https://github.com/tamurashingo/ilc) - Coverage measurement tool for the C language
+- [ilut](https://github.com/tamurashingo/ilut) - Unit testing tool for the C language
 
 </details>
 
-
-### [cl-batis](https://github.com/tamurashingo/cl-batis)
-
-SQL Mapping Framework
-
 <details>
+<summary>Clojure</summary>
 
-```common-lisp
-(setf *session* (create-sql-session :mysql
-                                    :database-name "batis_dev"
-                                    :username "root"
-                                    :password "password"
-                                    :host "mysql-test"
-                                    :port 3306))
-
-
-@update ("insert into product (id, name, price) values (:id, :name, :price)")
-(defsql register-product (id name price))
-
-(update-one *session* register-product :id 1 :name "NES" :price 14800)
-```
+- [dbutils3-clojure](https://github.com/tamurashingo/dbutils3-clojure) - Clojure wrapper for DBUtils3
 
 </details>
 
-
-### [reddit1.0](https://github.com/tamurashingo/reddit1.0)
-
-rewrite old reddit
-
 <details>
+<summary>Common Lisp</summary>
 
-```sh
-make setup
-
-make dev.up
-
-curl -v http://localhost:8000/browse
-```
+- [cl-batis](https://github.com/tamurashingo/cl-batis) - SQL mapping framework for Common Lisp
+- [cl-dbi-connection-pool](https://github.com/tamurashingo/cl-dbi-connection-pool) - Connection pool library for CL-DBI
+- [clails](https://github.com/tamurashingo/clails) - Common Lisp web framework inspired by Ruby on Rails
+- [getcmd](https://github.com/tamurashingo/getcmd) - Library to get command and options from command line arguments in Common Lisp
+- [mch2](https://github.com/tamurashingo/mch2) - Web service for checking mail on Common Lisp using a Bayesian filter with custom filters support
+- [reddit1.0](https://github.com/tamurashingo/reddit1.0) - Rewrite of old Reddit
 
 </details>
 
+<details>
+<summary>Go</summary>
 
-## Java
+- [iltd](https://github.com/tamurashingo/iltd) - Task management tool
 
+</details>
 
-### [dbutils3](https://github.com/tamurashingo/dbutils3)
+<details>
+<summary>Java</summary>
 
-database utility
+- [dbutils3](https://github.com/tamurashingo/dbutils3) - Database utility library for Java
+- [jalo](https://github.com/tamurashingo/jalo) - Java bootstrap utility with automatic updater
+- [jscheme](https://github.com/tamurashingo/jscheme) - Scheme implementation on Java
+- [mch](https://github.com/tamurashingo/mch) - Simple mail checker using a Bayesian filter
+- [pdb](https://github.com/tamurashingo/pdb) - PL/SQL debugger
+- [sql-analyzer](https://github.com/tamurashingo/sql-analyzer) - Utility to generate SQL and parameters for prepared statements
 
+</details>
 
-### [sql-analyzer](https://github.com/tamurashingo/sql-analyzer)
+<details>
+<summary>JavaScript</summary>
 
-generate SQL and params for prepared statement
+- [ben33](https://github.com/tamurashingo/ben33) - Event organizer application for use in intranet environments such as within a company
+- [salesforce-spreadsheet-sample](https://github.com/tamurashingo/salesforce-spreadsheet-sample) - Sample to display a spreadsheet-like view in Salesforce
 
+</details>
+
+<details>
+<summary>Ruby</summary>
+
+- [rscheme](https://github.com/tamurashingo/rscheme) - Scheme implementation on Ruby
+
+</details>
+
+<details>
+<summary>Others</summary>
+
+- [nnjhtrkn](https://github.com/tamurashingo/nnjhtrkn) - Famous Ninja game for NES, adapted to be built with Docker
+
+</details>
 
