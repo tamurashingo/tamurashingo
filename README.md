@@ -64,7 +64,7 @@
 <details>
 <summary>Others</summary>
 
-- [nnjhtrkn](https://github.com/tamurashingo/nnjhtrkn) - Famous Ninja game for NES, adapted to be built with Docker
+- [nnjhtrkn](https://github.com/tamurashingo/nnjhtrkn) - Rewrite of the source code for the famous NES ninja game so that it can be built with cc65
 
 </details>
 
