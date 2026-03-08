@@ -24,6 +24,7 @@
 - [getcmd](https://github.com/tamurashingo/getcmd) - Library to get command and options from command line arguments in Common Lisp
 - [mch2](https://github.com/tamurashingo/mch2) - Web service for checking mail on Common Lisp using a Bayesian filter with custom filters support
 - [reddit1.0](https://github.com/tamurashingo/reddit1.0) - Rewrite of old Reddit
+- [TyCL](https://github.com/tamurashingo/tycl) - Typed Common Lisp: Gradual type system with LSP support for static analysis
 
 </details>
 
